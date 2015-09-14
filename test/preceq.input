@@ -1,0 +1,63 @@
+a_A b_B c_C
+a_A b_B c_C
+true
+a_A b_B c_C d_D
+a_A b_B c_C <>
+true
+a_A b_B c_C d_D
+<> b_B c_C d_D
+true
+a_A b_B c_C d_D
+<> c_C d_D
+true
+a_A b_B c_C
+a_A <> c_C
+true
+a_A b_B c_C d_D
+a_A <> d_D
+true
+a_A b_B c_C d_D
+<>
+true
+a_A b_B c_C d_D
+<> b_B <> d_D
+true
+a_A b_B c_C d_D
+<> <> d_D
+true
+a_A b_B c_C d_D
+<> <> <> d_D
+true
+a_A b_B c_C d_D
+<> <> <> <>
+true
+a_A b_B c_C d_D
+<> <> <> <> <>
+false
+a_A b_B c_C d_D e_E
+<A> <B> <C> <D> <E>
+true
+a_A b_B c_C d_D e_E
+<A> <B> <> <D> <E>
+true
+a_A b_B c_C d_D e_E
+<A> <B> <D> <D> <E>
+false
+a_A b_B a_A b_B a_A b_B
+<> b_B a_A <>
+true
+a_A b_B a_A b_B a_A b_B
+<> a_B a_A <>
+false
+a_A b_B a_A b_B a_A b_B
+<> a_A a_A <>
+false
+a_A b_B a_A b_B a_A b_B
+<> a_A b_B
+true
+a_A b_B a_A b_B a_A b_B
+<> a_A
+false
+Albert_NNP Einstein_NNP -LRB-_-LRB- 14_CD March_NNP 1879_NNS --_: 18_CD April_NNP 1955_CD -RRB-_-RRB- was_VBD a_DT theoretical_JJ physicist_NN who_WP published_VBD the_DT special_JJ and_CC general_JJ theories_NNS of_IN relativity_NN and_CC contributed_VBD in_IN other_JJ areas_NNS of_IN physics_NNS ._.
+<> <> <> <> <> <> <> <> <> <> <> <> <> ._. ._.
+false
